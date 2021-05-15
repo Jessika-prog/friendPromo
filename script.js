@@ -17,8 +17,12 @@ let streamer = [
     ['GlayTV', 'https://static-cdn.jtvnw.net/jtv_user_pictures/d85bfec4-2069-4989-8f25-0cc91ebe77a6-profile_image-70x70.png'],
     ['Boozook', 'https://static-cdn.jtvnw.net/jtv_user_pictures/d8b65043-9ad7-435f-927d-d93ec5302d95-profile_image-70x70.png'],
     ['Rymontv', 'https://static-cdn.jtvnw.net/jtv_user_pictures/b9d66490-0ec1-42dc-b96a-7ea89fc729cc-profile_image-70x70.png'],
-    ['Renantelle', 'https://static-cdn.jtvnw.net/jtv_user_pictures/f580e4f0-0734-4fb5-9cc9-7242c07c6778-profile_image-70x70.png'],
-    ['Renantelle', 'https://static-cdn.jtvnw.net/jtv_user_pictures/f580e4f0-0734-4fb5-9cc9-7242c07c6778-profile_image-70x70.png']];
+    ['mr_krissou', 'https://static-cdn.jtvnw.net/jtv_user_pictures/b1ef5805-2ad7-4d98-a50e-9f33cd2a91f9-profile_image-70x70.png'],
+    ['CapitainManette', 'https://static-cdn.jtvnw.net/jtv_user_pictures/92f9f80d-658a-43c9-b141-3b59ebd05718-profile_image-70x70.png'],
+    ['Keeps_live', 'https://static-cdn.jtvnw.net/jtv_user_pictures/bea17c1c-4839-4c6b-89a7-06da9bfd535d-profile_image-70x70.png'],
+    ['BobsLeague', 'https://static-cdn.jtvnw.net/jtv_user_pictures/faf10a68-6abd-45c6-9519-e954cb4f8ce1-profile_image-70x70.png'],
+    ['Le_Mamar', 'https://static-cdn.jtvnw.net/jtv_user_pictures/45728100-288f-4b41-8912-3f17cd0e0a0a-profile_image-70x70.png'],
+    ['SirGrizzlyTv', 'https://static-cdn.jtvnw.net/jtv_user_pictures/c743d091-305f-408f-addc-315b4ff1b456-profile_image-70x70.png']];
 
 const logo = document.querySelector('img');
 const pseudo = document.querySelector('p');
