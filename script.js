@@ -27,7 +27,7 @@ let streamer = [
 
 
 
-const carte = document.querySelector('.carte')
+// const carte = document.querySelector('.carte')
 const logo = document.querySelector('img');
 const pseudo = document.querySelector('.pseudo');
 
