@@ -25,36 +25,24 @@ let streamer = [
     ['SirGrizzlyTv', 'https://static-cdn.jtvnw.net/jtv_user_pictures/c743d091-305f-408f-addc-315b4ff1b456-profile_image-150x150.png'],
     ['Wreavel', 'https://static-cdn.jtvnw.net/jtv_user_pictures/d38fe027-c2a0-4e0f-99fc-a07867622abe-profile_image-150x150.png'],];
 
+
+
+const carte = document.querySelector('.carte')
 const logo = document.querySelector('img');
 const pseudo = document.querySelector('.pseudo');
 
 document.addEventListener("DOMContentLoaded", (event) => {
-
-    let i = 0
-
-    const time = 7000
-
+carte.setAttribute("class","carte slide")
+    let i = 0;
+    setInterval(() => {
+        pseudo.innerHTML = streamer[i][0];
         logo.setAttribute("src", streamer[i][1]);
-        pseudo.innerHTML = streamer[i][0]
-    
-        if (i < streamer.length - 1) {
-            i++
-        } else {
+        if (i == streamer.length - 1) {
             i = 0
-        };
-        setTimeout("changeStreamer()", time)
-    
-//     let i = 0;
-//     setInterval(() => {
-//         logo.setAttribute("classe", "slide")
-//         pseudo.innerHTML = streamer[i][0];
-//         logo.setAttribute("src", streamer[i][1]);
-//         if (i == streamer.length - 1) {
-//             i = 0
-//         } else {
-//             i++
-//         }
-//     }, 5000);
+        } else {
+            i++
+        }
+    }, 6000);
 });
 
 // let i = 0

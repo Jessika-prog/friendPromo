@@ -9,6 +9,10 @@ body {
 
 .container {
     overflow: hidden;
+    margin: 0;
+    padding: 0%;
+    height: fit-content;
+    width: fit-content;
 }
 
 .carte {
@@ -36,7 +40,7 @@ p {
 }
 
 .slide {
-    animation: slider 7000ms infinite;
+    animation: slider 6000ms infinite;
 }
 
 @keyframes slider {
@@ -45,15 +49,15 @@ p {
         opacity: 0;
     }
     25% {
-        transform: translateY(20%);
+        transform: translateY(10%);
         opacity: 1;
     }
     50% {
-        transform: translateY(20%);
+        transform: translateY(10%);
         opacity: 1;
     }
     75% {
-        transform: translateY(20%);
+        transform: translateY(10%);
         opacity: 1;
     }
     100% {
