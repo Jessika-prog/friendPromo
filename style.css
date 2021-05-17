@@ -7,6 +7,10 @@ body {
     background-color: black;
 }
 
+.container {
+    overflow: hidden;
+}
+
 .carte {
     padding: 10px;
     display: flex;
@@ -29,4 +33,31 @@ p {
     margin-left: 10px;
     color: #36BDE4;
     font-size: 2em;
+}
+
+.slide {
+    animation: slider 7000ms infinite;
+}
+
+@keyframes slider {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    25% {
+        transform: translateY(20%);
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(20%);
+        opacity: 1;
+    }
+    75% {
+        transform: translateY(20%);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
 }

@@ -26,21 +26,38 @@ let streamer = [
     ['Wreavel', 'https://static-cdn.jtvnw.net/jtv_user_pictures/d38fe027-c2a0-4e0f-99fc-a07867622abe-profile_image-150x150.png'],];
 
 
+
 const carte = document.querySelector('.carte')
 const logo = document.querySelector('img');
 const pseudo = document.querySelector('.pseudo');
 
-document.addEventListener("DOMContentLoaded", (event) => {
+// document.addEventListener("DOMContentLoaded", (event) => {
 
-    let i = 0;
-    setInterval(() => {
-        // carte.setAttribute("classe", ".slider")
-        pseudo.innerHTML = streamer[i][0];
-        logo.setAttribute("src", streamer[i][1]);
-        if (i == streamer.length - 1) {
-            i = 0
-        } else {
-            i++
-        }
-    }, 5000);
-});
+//     let i = 0;
+//     setInterval(() => {
+//         logo.setAttribute("classe", "slide")
+//         pseudo.innerHTML = streamer[i][0];
+//         logo.setAttribute("src", streamer[i][1]);
+//         if (i == streamer.length - 1) {
+//             i = 0
+//         } else {
+//             i++
+//         }
+//     }, 5000);
+// });
+
+let i = 0
+
+const time = 7000
+function changeStreamer() {
+    logo.setAttribute("src", streamer[i][1]);
+    pseudo.innerHTML = streamer[i][0]
+
+    if (i < streamer.length - 1) {
+        i++
+    } else {
+        i = 0
+    };
+    setTimeout("changeStreamer()", time)
+}
+window.onload = changeStreamer
