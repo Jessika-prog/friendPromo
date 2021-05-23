@@ -23,7 +23,7 @@ let streamer = [
     ['Rymontv', 'https://static-cdn.jtvnw.net/jtv_user_pictures/b9d66490-0ec1-42dc-b96a-7ea89fc729cc-profile_image-150x150.png'],
     ['Shergrith_V2', 'https://static-cdn.jtvnw.net/jtv_user_pictures/6f10b4b6-88ec-474b-a1a6-3e7838082c0b-profile_image-150x150.png'],
     ['SirGrizzlyTv', 'https://static-cdn.jtvnw.net/jtv_user_pictures/c743d091-305f-408f-addc-315b4ff1b456-profile_image-150x150.png'],
-    ['Wreavel', 'https://static-cdn.jtvnw.net/jtv_user_pictures/d38fe027-c2a0-4e0f-99fc-a07867622abe-profile_image-150x150.png']
+    ['Wreavel', 'https://static-cdn.jtvnw.net/jtv_user_pictures/d38fe027-c2a0-4e0f-99fc-a07867622abe-profile_image-150x150.png'],
     ['Yssakam', 'https://static-cdn.jtvnw.net/jtv_user_pictures/0f42d1d6-076e-46da-a30a-40cd5042759a-profile_image-150x150.png']];
 
 
