@@ -7,7 +7,8 @@ let streamer = [
     ['OliviaLaDouceur', 'https://static-cdn.jtvnw.net/jtv_user_pictures/acc39a77-6cd3-44e3-ba73-b79316306260-profile_image-150x150.png'],
     ['Pompowpidow', 'https://static-cdn.jtvnw.net/jtv_user_pictures/1b583dc1-a428-4a84-ac49-1402e6219f07-profile_image-150x150.jpeg','JustDance Queen'],
     ['Renantelle', 'https://static-cdn.jtvnw.net/jtv_user_pictures/f580e4f0-0734-4fb5-9cc9-7242c07c6778-profile_image-150x150.png','MultiGaming'],
-    ['Superlicorneman', 'https://static-cdn.jtvnw.net/jtv_user_pictures/dcf853f7-c709-45db-bdcd-a4112df846d6-profile_image-150x150.png','MultiGaming'],
+    ['SachaK94', 'https://static-cdn.jtvnw.net/jtv_user_pictures/7de71f88-f437-4861-ba46-8a1e7942a621-profile_image-150x150.png','MultiGaming'],
+    ['Superlicorneman', 'https://static-cdn.jtvnw.net/jtv_user_pictures/62dd4158-7096-497b-af2d-5cf07540200a-profile_image-150x150.png','MultiGaming'],
     ['VisioTempus', 'https://static-cdn.jtvnw.net/jtv_user_pictures/274d022e-365a-4595-a5d3-7d6bdfccc610-profile_image-150x150.png','MultiGaming'],
     ['Wreavel', 'https://static-cdn.jtvnw.net/jtv_user_pictures/d38fe027-c2a0-4e0f-99fc-a07867622abe-profile_image-150x150.png','MultiGaming'],
     ['Yssakam', 'https://static-cdn.jtvnw.net/jtv_user_pictures/0f42d1d6-076e-46da-a30a-40cd5042759a-profile_image-150x150.png','MultiGaming']];
